@@ -53,7 +53,9 @@ stopButton.onclick = function () {
 }
 resetButton.onclick = function () {
     clearInterval(interval);
-    
+     hour = 00;
+     min = 00;
+    sec = 00;
     document.getElementById("timers").innerHTML = "00:00:00";
 };
 
